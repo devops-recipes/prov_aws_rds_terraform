@@ -1,0 +1,13 @@
+resources:
+# Automation scripts repo
+  - name: aws_rds_tf_repo
+    type: gitRepo
+    integration: "drship_github"
+    versionTemplate:
+      sourceName: "devops-recipes/prov_aws_rds_terraform"
+      branch: master
+
+# AWS credentials
+  - name: aws_rds_tf_creds
+    type: integration
+    integration: "drship_aws"
