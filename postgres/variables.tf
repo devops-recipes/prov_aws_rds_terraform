@@ -19,7 +19,7 @@ variable "vpc_private_sn_id" {
 }
 
 variable "vpc_private_sg_id" {
-  description = "Security group ID for Memcached instances"
+  description = "Security group ID for spinning up DB instances"
 }
 
 variable "postgres_db_name" {
