@@ -23,13 +23,13 @@ variable "vpc_private_sg_id" {
 }
 
 variable "mysql_db_name" {
-  description = "Postgres Database Name"
+  description = "MySQL Database Name"
 }
 
 variable "mysql_db_username" {
-  description = "Postgres Database Username"
+  description = "MySQL Database Username"
 }
 
 variable "mysql_db_password" {
-  description = "Postgres Database Password"
+  description = "MySQL Database Password"
 }
