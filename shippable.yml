@@ -10,4 +10,4 @@ resources:
 # AWS credentials
   - name: aws_rds_tf_creds
     type: integration
-    integration: "drship_aws"
+    integration: "dr_aws"
